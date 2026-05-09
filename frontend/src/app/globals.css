@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom primary color */
+@layer base {
+  :root {
+    --color-primary: 220 90% 55%; /* HSL */
+  }
+}
+
+/* Gradient background for hero sections */
+.bg-hero {
+  background: linear-gradient(135deg, hsl(var(--color-primary) / 0.9), hsl(210 40% 20% / 0.8));
+}
