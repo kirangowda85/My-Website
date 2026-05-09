@@ -44,6 +44,7 @@ Copy the examples and fill in production values:
 
 ## Documentation
 
+- [Project Report](docs/PROJECT_REPORT.md)
 - [Architecture](docs/ARCHITECTURE.md)
 - [Database Schema](docs/database/schema.sql)
 - [API Design](docs/API.md)
